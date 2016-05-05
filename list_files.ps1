@@ -1,4 +1,4 @@
-﻿# simple function
+﻿# simple function to sort a list of items
 function list-items {
     $input | Where-Object {$_.Name -ne "Users"} | Sort-Object
 }
